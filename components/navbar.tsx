@@ -1,5 +1,6 @@
 
 import { UserButton } from "@clerk/nextjs";
+import { MainNav } from "./main-nav";
 const Navbar = () => {
     return (
         <div className="border-b">
