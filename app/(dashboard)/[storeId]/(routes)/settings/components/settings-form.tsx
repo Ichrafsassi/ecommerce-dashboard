@@ -81,8 +81,8 @@ export const SettingsForm: React.FC<SettingsFormProps> = ({
 
   return (
     <>
-    <AlertModal 
-      isOpen={open} 
+    <AlertModal
+      isOpen={open}
       onClose={() => setOpen(false)}
       onConfirm={onDelete}
       loading={loading}
